@@ -1,125 +1,112 @@
-\documentclass[a4paper,12pt,oneside]{scrartcl}  % legt die Art des Dokuments fest (benötigt *.sty-Datei mit entsprechendem Namen)
+\documentclass[a4paper,12pt,oneside]{scrartcl} %legt die Art des Dokuments fest (benötigt *.sty-Datei mit entsprechendem Namen)
 
-%%%%%%%%%%%%
-% Packages % 
-%%%%%%%%%%%%
 
-% Umlaute und andere deutsche Besonderheiten
-\usepackage[german,ngerman]{babel}  % damit die Überschriften "Inhaltsverzeichnis" etc. auf deutsch statt englisch erscheinen
-\usepackage[utf8]{inputenc}  % damit man Umlaute direkt eingeben kann: ä statt \"a
-\usepackage[T1]{fontenc}  % damit die Trennung auch bei Wörtern mit Umlauten funktioniert
+%Umlaute und andere deutsche Besonderheiten
+\usepackage[german,ngerman]{babel} %damit die Überschriften "Inhaltsverzeichnis" etc. auf deutsch statt englisch erscheinen
+\usepackage[utf8]{inputenc} %damit man Umlaute direkt eingeben kann: ä statt \"a
+\usepackage[T1]{fontenc} %damit die Trennung auch bei Wörtern mit Umlauten funktioniert
+\usepackage[autostyle=true,german=quotes]{csquotes} %deutsche Anführungszeichen
+\usepackage[german]{varioref} %intelligente Verweise (z.B. "auf der nächsten Seite")
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2.5cm]{geometry} %Seitenmaße
+\usepackage{setspace} %zum Setzen des Zeilenabstands
 
-\usepackage[autostyle=true,german=quotes]{csquotes}  % deutsche Anführungszeichen
-\usepackage[german]{varioref}  % intelligente Verweise (z.B. "auf der nächsten Seite")
 
-\usepackage[left=3cm,right=3cm,top=2cm,bottom=2.5cm]{geometry}  % Seitenmaße
-\usepackage{setspace}  % zum Setzen des Zeilenabstands
+%Schriftarten
+\usepackage{palatino} %alternative Schriftart
+\usepackage{mathpazo} %Palatino-Schriftart in Formeln
 
-% Schriftarten
-\usepackage{palatino}  % alternative Schriftart
-\usepackage{mathpazo}  % Palatino-Schriftart in Formeln
 
-% Anhang
-% \usepackage{appendix}
+%Anhang
+\usepackage{appendix}
 
-% Literaturverzeichnis
-\usepackage{babelbib}  % damit das Literaturverzeichnis mehrsprachig sein kann
-\usepackage[sort&compress,numbers]{natbib}  % für Literaturverzeichnis-Einstellmöglichkeiten - wird in den eckigen Klammern zusätzlich der Parameter "numbers" angegeben, dann ändert sich der Zitierstil von "Moore, 1965" zu "[1]" und die Quellen im Literaturverzeichnis werden entsprechend durchnummeriert
 
-% Seitennummerierung variieren
+%Literaturverzeichnis
+\usepackage[backend=biber, sortlocale=de_DE, sorting=none]{biblatex}
+\addbibresource{assets/literature.bib}
+
+
+%Seitennummerierung variieren
 \usepackage{scrlayer-scrpage}
 \pagestyle{scrheadings}
 \clearpairofpagestyles
-\addtolength{\footskip}{-1.2cm}  % Seitenzahl etwas nach oben verschieben
-\ofoot{\pagemark}  % Seitenzahl rechtsbündig in Fußzeile
+\addtolength{\footskip}{-1.2cm} %Seitenzahl etwas nach oben verschieben
+\ofoot{\pagemark} %Seitenzahl rechtsbündig in Fußzeile
 
-% Einfügen von Bilddateien
+
+%Einfügen von Bilddateien
 \usepackage{graphicx}
 
-% Mathematische Symbole und Umgebungen
-\usepackage{amsmath}  % viele mathematische Umgebungen
-\usepackage{amssymb}  % mathematische Symbole; lädt auch das Paket amsfonts nach
-% \usepackage{amsthm}  % erweitert die Möglichkeiten der theorem-Umgebung
-\usepackage{ziffer}  % damit hinter dem Dezimalkomma in Zahlen (z.B. 3,1415) kein Zwischenraum eingefügt wird; bei f(x, y) aber schon
 
-\usepackage{siunitx}  % um Einheiten "gerade" und im passenden Abstand zur Maßzahl darzustellen - Kurzdokumentation hier: https://www.namsu.de/Extra/pakete/Siunitx.html
+%Mathematische Symbole und Umgebungen
+\usepackage{amsmath} %viele mathematische Umgebungen
+\usepackage{amssymb} %mathematische Symbole; lädt auch das Paket amsfonts nach
+%\usepackage{amsthm} %erweitert die Möglichkeiten der theorem-Umgebung
+\usepackage{ziffer} %damit hinter dem Dezimalkomma in Zahlen (z.B. 3,1415) kein Zwischenraum eingefügt wird; bei f(x, y) aber schon
+
+\usepackage{siunitx} %um Einheiten "gerade" und im passenden Abstand zur Maßzahl darzustellen - Kurzdokumentation hier: https://www.namsu.de/Extra/pakete/Siunitx.html
 \sisetup{locale=DE, per-mode=symbol-or-fraction}
 
-% Tabellen
-\usepackage{array} 	% Verbesserung der array- und tabular-Umgebungen; sorgt für Formelnummerierung
+
+%Tabellen
+\usepackage{array} %Verbesserung der array- und tabular-Umgebungen; sorgt für Formelnummerierung
 \usepackage{tabularx}
 
-% Nützliches
+%Konzept Map
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
+
+
+%Nützliches
 \usepackage[breaklinks, plainpages=false, bookmarks=true]{hyperref}  % Verweise mit Links versehen
-% \usepackage{chngcntr}  % um Fußnoten über das gesamte Dokument zu zählen statt kapitelweise
-\usepackage{eurosym}  % Euro-Symbol
-\DeclareUnicodeCharacter{20AC}{\euro}  % damit man statt \euro einfach das €-Zeichen der Tastatur verwenden kann
-\usepackage{blindtext}  % zum Erzeugen von Dummy-Blindtext, um mal schnell Seitenformatierungen und Textumfluss zu testen
-\usepackage{verbatim}  % zum Einfügen von Programmcode o.ä. in Schreibmaschinenschrift (monospaced)
+%\usepackage{chngcntr} %um Fußnoten über das gesamte Dokument zu zählen statt kapitelweise
+\usepackage{eurosym} %Euro-Symbol
+\DeclareUnicodeCharacter{20AC}{\euro} %damit man statt \euro einfach das €-Zeichen der Tastatur verwenden kann
+\usepackage{blindtext} %zum Erzeugen von Dummy-Blindtext, um mal schnell Seitenformatierungen und Textumfluss zu testen
+\usepackage{verbatim} %zum Einfügen von Programmcode o.ä. in Schreibmaschinenschrift (monospaced)
 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% eigene Befehlsdefinitionen %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% \newcommand{\R}{\mathbb{R}}  % Abkürzung \R für reelle Zahlen
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Einstellungen von Abständen %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%Einstellungen von Abständen
 % \setlength{\parindent}{0px}  % Einrückung am Absatzanfang
 % \setlength{\parskip}{5pt}  % Abstand zum neuen Absatz (vertikal)
 % \setlength{\belowcaptionskip}{-0.2em} % Abstand unter den Beschriftungen von Bildern und Tabellen
 \renewcommand{\baselinestretch}{1.50}\normalsize % 1 1/2 Zeilig
 
 
-%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%
-%%% Hauptdokument %%%
-%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%
+
+%Hauptdokument
 
 \begin{document}
 	
  \begin{titlepage}
-  %----------------------------------------------------------------------
-  %	Kopfzeile
-  %----------------------------------------------------------------------
 
-  \includegraphics[scale=0.2]{HGV-logo.png}\\[-2.2cm]
+  %Kopfzeile  
+  \includegraphics[scale=0.2]{assets/HGV-logo.png}\\[-2.2cm]
   \begin{flushright}
      \large Oberstufenjahrgang 2023/2025\\[1cm]
   \end{flushright}
 
-  %----------------------------------------------------------------------
-  %	Titel
-  %----------------------------------------------------------------------
-
+  %Titel
   \begin{center}
     \huge \bfseries Seminararbeit\\
     \Large \mdseries aus dem Fach Physik\\[1.5cm]
   \end{center}
 
+
   
-  {\Large
+  \Large
   \begin{tabular}{lp{11.5cm}}
-    Thema: & [Thema]
+    Thema: & Wie schlau sind ChatGPT \& Co. wirklich?
   \end{tabular}
 
   ~\\[0.5cm]
 
-  %----------------------------------------------------------------------
-  %	Autor, Bewertung
-  %----------------------------------------------------------------------
-
+  %Autor, Bewertung
   \large
   \begin{tabular}{ll}
-    Verfasser: & Vorname Nachname \\
+    Verfasser: & Alex Eschbaumer \\
     W-Seminar: & Wissenschaftsjournalismus \\
     Seminarleiter: & Sebastian Bauer \\
-    Abgabetermin: & xx. November 2024 \\[1cm]
+    Abgabetermin: & 07. November 2024 \\[1cm]
     Erzielte Note: & \framebox[2cm][l]{\raisebox{0pt}[1.2em][0.1em]{~}}~~in Worten:~~\framebox[4.5cm][l]{\raisebox{0pt}[1.2em][0.1em]{~}} \\
     Erzielte Punkte: & \framebox[2cm][l]{\raisebox{0pt}[1.2em][0.1em]{~}}~~in Worten:~~\framebox[4.5cm][l]{\raisebox{0pt}[1.2em][0.1em]{~}} \\
     (einfache Wertung) & ~
@@ -135,14 +122,12 @@
    \hspace{5cm} & \hspace{8.5cm} \\\cline{2-2} 
    ~ & Unterschrift des Seminarleiters 
   \end{tabular}
-  }
+  
 
  \end{titlepage}
 
- %----------------------------------------------------------------------
- %	Inhaltsverzeichnis
- %----------------------------------------------------------------------
 
+ %Inhaltsverzeichnis 
  \begingroup
  \pagestyle{empty} % ohne Seitenzahl
  \tableofcontents % Inhaltsverzeichnis
@@ -151,63 +136,17 @@
 
  \newpage
 
- %----------------------------------------------------------------------
- %	erste Seite der Arbeit
- %----------------------------------------------------------------------
 
+ %erste Seite der Arbeit
  \setcounter{page}{1} % Seitenzähler wird auf 1 gesetzt
+ \input{content.tex}	
 	
- \section{Überschrift 1}\label{s1}
 	
- \subsection{Abschnitt a}\label{s1ss1}
- 
- \blindtext
- (nach \cite{Moore:1965}).
-	
- \clearpage
-	
- \subsection{Abschnitt b}\label{s1ss2}
+ %Verzeichnisse und Anhang 
+ \clearpage	
+ \addcontentsline{toc}{section}{Literaturverzeichnis}
+ \printbibliography[title = {Literaturverzeichnis}]
 
- \blindtext
- \citep{FliessbachEDyn,DAMaike}
- \blindtext
- \citep{DissFWilhelm}
-
- \begin{equation}\label{eq1}
-  D = \sqrt{b^2-4ac} 
- \end{equation}
- 
- Die Gleichung (\vref{eq1}) kennst du sicher.\\[0.5cm]
-
- {\huge Text} siehe Abschnitt \vref{s1ss1}
-
- \clearpage
- 
- \section{Überschrift 2}\label{s2}
-	
- \blindtext
- 
- \begin{table}[hb]
-   \centering
-   \begin{tabular}{r|c|l}
-     Pos. & Zahl & Eigenschaften \\\hline
-     1 & $\pi$ & eine runde Sache \\
-     2 & $i$ & schon bisschen surreal \\
-     3 & 42 & Keine Panik! \\
-     4 & 23 & mal Sheldon fragen \\
-   \end{tabular}\caption{Meine Lieblingszahlen}\label{tab:Lieblingszahlen}
- \end{table}
- 
- \blindtext
-
- \begin{figure}[hbt]
-   \centering
-   \includegraphics[width=0.5\textwidth]{HGV-logo.png}
-   \caption{Unser tolles Schullogo}\label{fig:HGVlogo}
- \end{figure}
-
- \blindtext
-	
  \clearpage	
  \addcontentsline{toc}{section}{Abbildungsverzeichnis}
  \listoffigures
@@ -215,12 +154,6 @@
  \clearpage	
  \addcontentsline{toc}{section}{Tabellenverzeichnis}
  \listoftables
-
- \clearpage	
- \addcontentsline{toc}{section}{Literaturverzeichnis}
- %\bibliographystyle{ieeetr}
- \bibliographystyle{apalike-german}  % legt den Zitier- und Literaturverzeichnis-Stil fest (benötigt die *.bst-Datei mit entsprechendem Namen) 
- \bibliography{Vorlage}  % bindet die Datei Vorlage.bib als Literaturdatenbank ein
 	
  \clearpage
  \appendix

@@ -1,0 +1,450 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{spitzer23}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f8283cb1cfdcc35a4c0290eacd9758d9}{%
+           family={Spitzer},
+           familyi={S\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {München}%
+      }
+      \list{publisher}{1}{%
+        {Droemer Verlag}%
+      }
+      \strng{namehash}{f8283cb1cfdcc35a4c0290eacd9758d9}
+      \strng{fullhash}{f8283cb1cfdcc35a4c0290eacd9758d9}
+      \strng{bibnamehash}{f8283cb1cfdcc35a4c0290eacd9758d9}
+      \strng{authorbibnamehash}{f8283cb1cfdcc35a4c0290eacd9758d9}
+      \strng{authornamehash}{f8283cb1cfdcc35a4c0290eacd9758d9}
+      \strng{authorfullhash}{f8283cb1cfdcc35a4c0290eacd9758d9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{"978-3-426-44850-2"}
+      \field{month}{11}
+      \field{title}{Künstliche Intelligenz, Dem Menschen Überlegen - wie KI uns rettet und bedroht}
+      \field{volume}{1}
+      \field{year}{2023}
+    \endentry
+    \entry{shaji23}{article}{}
+      \name{author}{3}{}{%
+        {{hash=76f8b376a4807dfa830758bfa9444cd2}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={Dr.\bibnamedelimi A.\bibnamedelimi Shaji},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=263a941b0a0c7db3411f259ea4b516f5}{%
+           family={George},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi S.\bibnamedelimi Hovan},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fb1fa50b99e9ef85e54b67dec566ce21}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi S.\bibnamedelimi Gabrio},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{40936e1b78c90063db0701df4a19c7b4}
+      \strng{fullhash}{40936e1b78c90063db0701df4a19c7b4}
+      \strng{bibnamehash}{40936e1b78c90063db0701df4a19c7b4}
+      \strng{authorbibnamehash}{40936e1b78c90063db0701df4a19c7b4}
+      \strng{authornamehash}{40936e1b78c90063db0701df4a19c7b4}
+      \strng{authorfullhash}{40936e1b78c90063db0701df4a19c7b4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Partners Universal International Innovation Journal}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{ChatGPT and the Future of Work: A Comprehensive Analysis of AI’s Impact on Jobs and Employment}
+      \field{volume}{1}
+      \field{year}{2023}
+      \field{pages}{154\bibrangedash 186}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.5281/zenodo.8076921
+      \endverb
+      \verb{urlraw}
+      \verb https://www.puiij.com/index.php/research/article/view/57
+      \endverb
+      \verb{url}
+      \verb https://www.puiij.com/index.php/research/article/view/57
+      \endverb
+    \endentry
+    \entry{cAI24}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=761ca1db838b2954c84b9eeafb1b9859}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={Daniel\bibnamedelima De},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{69cc1ef52426d2cfaf9dd086a9d5d1d6}
+      \strng{fullhash}{69cc1ef52426d2cfaf9dd086a9d5d1d6}
+      \strng{bibnamehash}{69cc1ef52426d2cfaf9dd086a9d5d1d6}
+      \strng{authorbibnamehash}{69cc1ef52426d2cfaf9dd086a9d5d1d6}
+      \strng{authornamehash}{69cc1ef52426d2cfaf9dd086a9d5d1d6}
+      \strng{authorfullhash}{69cc1ef52426d2cfaf9dd086a9d5d1d6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{note}{Auch als mobile App verfügbar.}
+      \field{title}{Character.AI}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://character.ai/
+      \endverb
+      \verb{url}
+      \verb https://character.ai/
+      \endverb
+    \endentry
+    \entry{chen24}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=09b048bb387460874db4c51203968b8f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Angelina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=029c88046a98e5faef81591605407703}{%
+           family={Hannon},
+           familyi={H\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+        {{hash=dfa8af61e11fe343077737f834e2dd08}{%
+           family={Koegel},
+           familyi={K\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=78efdb91d8d07e2064ab1255915a14b5}{%
+           family={Ciriello},
+           familyi={C\bibinitperiod},
+           given={Raffaele},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2dc95e48491a1226d6fd110924b3287}
+      \strng{fullhash}{1d91cc6c6ed307a5dd01aee19bfd3727}
+      \strng{bibnamehash}{e2dc95e48491a1226d6fd110924b3287}
+      \strng{authorbibnamehash}{e2dc95e48491a1226d6fd110924b3287}
+      \strng{authornamehash}{e2dc95e48491a1226d6fd110924b3287}
+      \strng{authorfullhash}{1d91cc6c6ed307a5dd01aee19bfd3727}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Australasian Conference on Information Systems}
+      \field{title}{Feels Like Empathy: How “Emotional” AI Challenges Human Essence}
+      \field{year}{2024}
+    \endentry
+    \entry{gminiDemo2023}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The capabilities of multimodal AI | Gemini Demo}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=UIZAiXYceBI
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=UIZAiXYceBI
+      \endverb
+    \endentry
+    \entry{gramsch23}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6be3b6e14a99e07a494608770a885034}{%
+           family={Gramsch},
+           familyi={G\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6be3b6e14a99e07a494608770a885034}
+      \strng{fullhash}{6be3b6e14a99e07a494608770a885034}
+      \strng{bibnamehash}{6be3b6e14a99e07a494608770a885034}
+      \strng{authorbibnamehash}{6be3b6e14a99e07a494608770a885034}
+      \strng{authornamehash}{6be3b6e14a99e07a494608770a885034}
+      \strng{authorfullhash}{6be3b6e14a99e07a494608770a885034}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BASIC thinking}
+      \field{month}{05}
+      \field{title}{Künstliche Intelligenz: Wie funktioniert eigentlich ChatGPT?}
+      \field{year}{2023}
+    \endentry
+    \entry{roivainen23}{article}{}
+      \name{author}{1}{}{%
+        {{hash=e708f25de4a29fa935c7b2edf0814a84}{%
+           family={Roivainen},
+           familyi={R\bibinitperiod},
+           given={Eka},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{e708f25de4a29fa935c7b2edf0814a84}
+      \strng{fullhash}{e708f25de4a29fa935c7b2edf0814a84}
+      \strng{bibnamehash}{e708f25de4a29fa935c7b2edf0814a84}
+      \strng{authorbibnamehash}{e708f25de4a29fa935c7b2edf0814a84}
+      \strng{authornamehash}{e708f25de4a29fa935c7b2edf0814a84}
+      \strng{authorfullhash}{e708f25de4a29fa935c7b2edf0814a84}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific American}
+      \field{month}{03}
+      \field{title}{I Gave ChatGPT an IQ Test. Here's What I Discovered}
+      \field{year}{2023}
+    \endentry
+    \entry{blutermann23}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b9f20ee343aaf3341c15c312b391ffed}{%
+           family={Blütermann},
+           familyi={B\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9f20ee343aaf3341c15c312b391ffed}
+      \strng{fullhash}{b9f20ee343aaf3341c15c312b391ffed}
+      \strng{bibnamehash}{b9f20ee343aaf3341c15c312b391ffed}
+      \strng{authorbibnamehash}{b9f20ee343aaf3341c15c312b391ffed}
+      \strng{authornamehash}{b9f20ee343aaf3341c15c312b391ffed}
+      \strng{authorfullhash}{b9f20ee343aaf3341c15c312b391ffed}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Bild}
+      \field{month}{03}
+      \field{title}{ChatGPT besteht IQ-Test}
+      \field{year}{2023}
+    \endentry
+    \entry{gawdat23}{online}{}
+      \name{author}{1}{}{%
+        {{hash=222422a189218e87bc1ab4c5be3ff926}{%
+           family={Australia},
+           familyi={A\bibinitperiod},
+           given={Sky\bibnamedelima News},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Youtube}%
+      }
+      \strng{namehash}{222422a189218e87bc1ab4c5be3ff926}
+      \strng{fullhash}{222422a189218e87bc1ab4c5be3ff926}
+      \strng{bibnamehash}{222422a189218e87bc1ab4c5be3ff926}
+      \strng{authorbibnamehash}{222422a189218e87bc1ab4c5be3ff926}
+      \strng{authornamehash}{222422a189218e87bc1ab4c5be3ff926}
+      \strng{authorfullhash}{222422a189218e87bc1ab4c5be3ff926}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Chat-GPT ´much smarter´ than the average human: Mo Gawdat}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=BKf7qrcN0X8
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=BKf7qrcN0X8
+      \endverb
+    \endentry
+    \entry{aggarwal2018}{book}{}
+      \name{author}{1}{}{%
+        {{hash=86d11a07b1bfeac58dc68f7a419b3039}{%
+           family={Aggarwal},
+           familyi={A\bibinitperiod},
+           given={Charu\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{fullhash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{bibnamehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{authorbibnamehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{authornamehash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{authorfullhash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Second Edition}
+      \field{title}{Neural Networks and Deep Learning}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://scholar.google.de/citations?view_op=view_citation&hl=de&user=x_wsduUAAAAJ&citation_for_view=x_wsduUAAAAJ:lN037PIkXpQC
+      \endverb
+      \verb{url}
+      \verb https://scholar.google.de/citations?view_op=view_citation&hl=de&user=x_wsduUAAAAJ&citation_for_view=x_wsduUAAAAJ:lN037PIkXpQC
+      \endverb
+    \endentry
+    \entry{vaswani2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dd8654367c923279fc35fe561acfbf40}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd8654367c923279fc35fe561acfbf40}
+      \strng{fullhash}{dd8654367c923279fc35fe561acfbf40}
+      \strng{bibnamehash}{dd8654367c923279fc35fe561acfbf40}
+      \strng{authorbibnamehash}{dd8654367c923279fc35fe561acfbf40}
+      \strng{authornamehash}{dd8654367c923279fc35fe561acfbf40}
+      \strng{authorfullhash}{dd8654367c923279fc35fe561acfbf40}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Attention is all you need}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://user.phil.hhu.de/~cwurm/wp-content/uploads/2020/01/7181-attention-is-all-you-need.pdf
+      \endverb
+      \verb{url}
+      \verb https://user.phil.hhu.de/~cwurm/wp-content/uploads/2020/01/7181-attention-is-all-you-need.pdf
+      \endverb
+    \endentry
+    \entry{gemini2024}{report}{}
+      \name{author}{1}{}{%
+        {{hash=9421a87d9be5c70bc79f7822d2f26a46}{%
+           family={Gemini\bibnamedelima Team},
+           familyi={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Google},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9421a87d9be5c70bc79f7822d2f26a46}
+      \strng{fullhash}{9421a87d9be5c70bc79f7822d2f26a46}
+      \strng{bibnamehash}{9421a87d9be5c70bc79f7822d2f26a46}
+      \strng{authorbibnamehash}{9421a87d9be5c70bc79f7822d2f26a46}
+      \strng{authornamehash}{9421a87d9be5c70bc79f7822d2f26a46}
+      \strng{authorfullhash}{9421a87d9be5c70bc79f7822d2f26a46}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{08}
+      \field{note}{arXiv Identifier: 2403.05530v4}
+      \field{title}{Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context}
+      \field{type}{techreport}
+      \field{version}{4}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2403.05530v4
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2403.05530v4
+      \endverb
+    \endentry
+    \entry{openAI2024}{report}{}
+      \name{author}{1}{}{%
+        {{hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{note}{arXiv Identifier: 2303.08774v6}
+      \field{title}{GPT-4 Technical Report}
+      \field{type}{techreport}
+      \field{version}{6}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2303.08774v6
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2303.08774v6
+      \endverb
+    \endentry
+    \entry{turner2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=50bb1da31125197be3166f9bee1ed0ef}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Richard\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{50bb1da31125197be3166f9bee1ed0ef}
+      \strng{fullhash}{50bb1da31125197be3166f9bee1ed0ef}
+      \strng{bibnamehash}{50bb1da31125197be3166f9bee1ed0ef}
+      \strng{authorbibnamehash}{50bb1da31125197be3166f9bee1ed0ef}
+      \strng{authornamehash}{50bb1da31125197be3166f9bee1ed0ef}
+      \strng{authorfullhash}{50bb1da31125197be3166f9bee1ed0ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{02}
+      \field{note}{arXiv Identifier: 2304.10557v5}
+      \field{title}{An Introduction to Transformers}
+      \field{version}{5}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2304.10557v5
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2304.10557v5
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,11 +1,22 @@
 \babel@toc {ngerman}{}\relax 
-\babel@toc {ngerman}{}\relax 
-\contentsline {section}{\numberline {1}Überschrift 1}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Abschnitt a}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Abschnitt b}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Überschrift 2}{3}{section.2}%
-\contentsline {section}{Abbildungsverzeichnis}{5}{figure.1}%
-\contentsline {section}{Tabellenverzeichnis}{6}{section*.2}%
-\contentsline {section}{Literaturverzeichnis}{7}{section*.3}%
-\contentsline {section}{Anhang}{7}{section*.3}%
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Forschungsfrage und Zielsetzung}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Methodik und Aufbau}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Chatbots in der Gesellschaft}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Chatbots mit Gefühlen}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Mediale Berichterstattung}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Chatbots und IQ-Tests}{5}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Funktionsweise von Chatbots}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Begriffe und Grundlagen}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Transformer und Chatbots}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Warum ist das noch nicht AGI?}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Was folgt daraus?}{10}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Immer noch nur Algorithmen}{10}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Das falsche Bild in den Medien}{10}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}IQ-Tests mit wenig Aussagekraft}{10}{subsubsection.3.4.3}%
+\contentsline {section}{\numberline {4}Fazit: KI kann leicht missverstanden werden}{10}{section.4}%
+\contentsline {section}{Literaturverzeichnis}{11}{section.4}%
+\contentsline {section}{Abbildungsverzeichnis}{13}{section*.2}%
+\contentsline {section}{Tabellenverzeichnis}{14}{section*.3}%
+\contentsline {section}{Anhang}{15}{section*.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
