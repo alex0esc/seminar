@@ -178,7 +178,7 @@
 	\clearpage
 	
 	
-	\subsection{Transformer und Chatbots}\label{s2ss1}
+	\subsection{Transformer und Chatbots}\label{s2ss2}
 	Im Folgenden wrid der schematische Aufbau eines Transformers erklärt. Wie schon in \ref{s2ss1} erwähnt wurde 
 	ist ein Transformer ein neuronales Netzwerk-Modell. Das heißt wie in \ref{nueral_network_function} beschrieben 
 	nimmt dieser Transformer einen Vektor an rationalen Zahlen als Eingabe und gibt ebenso einen Vektor aus.      
@@ -263,10 +263,13 @@
 	einen starken Zusammanhang. Durch diese errechneten Zusammenhänge zwischen den Tokens kann das Netzwerk abwägen, welches
 	Token auf welches andere Token wie viel einfluss haben soll.	
 	
-	Nach der Multi-Head Attention folgt eine Normalisierung, welche dem Netzwerk hilft die Vektoren zu verarbeiten. 
+	Nach der Multi-Head Attention folgt eine Normalisierung, welche dabei hilft die Vektoren zu verarbeiten. 
 	Normalisirungen sind zwar Teil der Transformerachitektur aber nicht entscheidend für ein schematisches Verständnis
 	und werden hier nicht genauer beschrieben\cite[S.3]{vaswani2017}. 
 
+	Der zweite bedeutende Teil eines Transformers folgt direkt auf den attention Block und nennt sich Feed Forward Block.
+	Im Feed Forward Block befinden sich c.a. zwei drittel der Parameter.	 
+	
 	
 	
 	
@@ -276,8 +279,8 @@
 	%Aber deutlich komplizierter
 	%mehr zeitaufwand
 	%evtl. zu lang
-	\subsection{Warum ist das noch nicht AGI?}
-	\subsection{Was folgt daraus?}
+	\subsection{Warum ist das noch nicht AGI?}\label{s2ss3}
+	\subsection{Was folgt daraus?}\label{s2ss4}
 		\subsubsection{Immer noch nur Algorithmen}\label{s2ss4sss1}
 		%1. KI ist nicht wirklich intellegent, wurde darauf trainiert so zu tun als hätte sie emotionen!!! JA!
 		%1. KI hat eigentlich keine emotionen JA!
@@ -289,4 +292,4 @@
 		\subsubsection{IQ-Tests mit wenig Aussagekraft}\label{s2ss4sss3}
 		%3. verbaler IQ-Test fragwürdig = Mensch gegen Taschenrechner, es wird auf Trainingsdaten zurück gegriffen Naja
 		%3. vergleich mit IQ-Test von Mensch schwirig JA!
-\section{Fazit: KI kann leicht missverstanden werden}
+\section{Fazit: KI kann leicht missverstanden werden}\label{s3}
