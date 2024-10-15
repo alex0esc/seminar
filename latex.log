@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.24)  8 SEP 2024 01:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.24)  15 OCT 2024 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,11 +1228,7 @@ LaTeX Font Info:    Trying to load font information for T1+ppl on input line 78
 (C:\Users\alexe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-(latex.aux
-
-LaTeX Warning: Label `s2ss1' multiply defined.
-
-)
+(latex.aux)
 \openout1 = `latex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -1487,8 +1483,8 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=21.74998pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 3
-0.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
+9.
 
 
 Overfull \vbox (3.62498pt too high) has occurred while \output is active []
@@ -1503,7 +1499,7 @@ Package scrlayer-scrpage Warning: \footheight to low.
 (scrlayer-scrpage)                e.g., using
 (scrlayer-scrpage)                  \setlength{\footheight}{21.74998pt}
 (scrlayer-scrpage)                in your preamble.
-(scrlayer-scrpage)                I'll also increase \footskip on input line 30
+(scrlayer-scrpage)                I'll also increase \footskip on input line 29
 .
 
 
@@ -1511,7 +1507,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 	\clearpage
+l.29 	\clearpage
                  [1
 
 ]
@@ -1519,42 +1515,42 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 	\clearpage
+l.59 	\clearpage
                  [2
 
 ]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 66.
+(Font)              scaled to size 7.91925pt on input line 65.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 66.
+(Font)              scaled to size 6.25204pt on input line 65.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 66.
+(Font)              scaled to size 7.91925pt on input line 65.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 66.
+(Font)              scaled to size 6.25204pt on input line 65.
  [3
 
 ] [4
 
 ] [5]
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
-44.
+43.
 
 (C:\Users\alexe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 
-149.
+148.
 
 (C:\Users\alexe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-Overfull \hbox (9.45284pt too wide) in paragraph at lines 164--167
+Overfull \hbox (9.45284pt too wide) in paragraph at lines 163--166
 []\T1/ppl/b/n/12 Transformer\T1/ppl/m/n/12 : Die Trans-for-me-r-a-chi-tek-tur i
 st ein neu-ro-na-les Netzwerk-Modell,
  []
 
 
-Overfull \hbox (3.35509pt too wide) in paragraph at lines 168--172
+Overfull \hbox (3.35509pt too wide) in paragraph at lines 167--171
 []\T1/ppl/b/n/12 GPT\T1/ppl/m/n/12 : Ein Ge-ne-ra-ti-ve Pre-Trained Trans-for-m
 er ist ein LLM das sich die Trans-
  []
@@ -1563,13 +1559,11 @@ er ist ein LLM das sich die Trans-
 
 ] [7] [8
 
-]
+] [9
 
-LaTeX Warning: Citation 'turner2024' on page 9 undefined on input line 235.
+]) [10
 
-) [9
-
-] [10]
+] [11]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 14
 8.
 
@@ -1599,7 +1593,7 @@ Overfull \hbox (0.95027pt too wide) in paragraph at lines 148--148
 citation _
  []
 
-[11
+[12
 
 ]
 Overfull \hbox (13.14424pt too wide) in paragraph at lines 148--148
@@ -1613,48 +1607,36 @@ Overfull \hbox (44.18115pt too wide) in paragraph at lines 148--148
 2 . Techn. Ber. Ver-si-on 6. ar-Xiv Iden-ti-fier: 2303.08774v6.
  []
 
-[12] (latex.lof)
+[13] (latex.lof)
 \tf@lof=\write7
 \openout7 = `latex.lof'.
 
- [13
+ [14
 
 ] (latex.lot)
 \tf@lot=\write8
 \openout8 = `latex.lot'.
 
- [14
+ [15
 
-] [15
+] [16
 
 ] (latex.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `latex.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                latex
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'latex.run.xml'.
 \openout1 = `latex.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40422 strings out of 474462
- 857103 string characters out of 5742883
+ 40436 strings out of 474462
+ 857428 string characters out of 5742883
  1940998 words of memory out of 5000000
- 62084 multiletter control sequences out of 15000+600000
+ 62094 multiletter control sequences out of 15000+600000
  616757 words of font info for 153 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  108i,20n,107p,10902b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1669,9 +1651,9 @@ s/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/alexe/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/alexe/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/alexe/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on latex.pdf (17 pages, 234287 bytes).
+Output written on latex.pdf (18 pages, 237125 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 54 named destinations out of 1000 (max. 500000)
+ 321 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
  178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

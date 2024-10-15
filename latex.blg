@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'latex.blg'
-[103] biber-MSWIN64:340> INFO - === 
-[133] Biber.pm:419> INFO - Reading 'latex.bcf'
-[241] Biber.pm:979> INFO - Found 14 citekeys in bib section 0
-[256] Biber.pm:4419> INFO - Processing section 0
-[267] Biber.pm:4610> INFO - Looking for bibtex file 'assets/literature.bib' for section 0
-[301] bibtex.pm:1713> INFO - LaTeX decoding ...
-[323] bibtex.pm:1519> INFO - Found BibTeX data source 'assets/literature.bib'
-[415] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[415] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[415] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de_DE'
-[416] Biber.pm:4245> INFO - No sort tailoring available for locale 'de_DE'
-[427] bbl.pm:660> INFO - Writing 'latex.bbl' with encoding 'UTF-8'
-[433] bbl.pm:763> INFO - Output to latex.bbl
+[131] biber-MSWIN64:340> INFO - === 
+[161] Biber.pm:419> INFO - Reading 'latex.bcf'
+[270] Biber.pm:979> INFO - Found 15 citekeys in bib section 0
+[284] Biber.pm:4419> INFO - Processing section 0
+[295] Biber.pm:4610> INFO - Looking for bibtex file 'assets/literature.bib' for section 0
+[335] bibtex.pm:1713> INFO - LaTeX decoding ...
+[362] bibtex.pm:1519> INFO - Found BibTeX data source 'assets/literature.bib'
+[462] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[462] UCollate.pm:68> INFO - Overriding locale 'de_DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[462] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de_DE'
+[462] Biber.pm:4245> INFO - No sort tailoring available for locale 'de_DE'
+[475] bbl.pm:660> INFO - Writing 'latex.bbl' with encoding 'UTF-8'
+[481] bbl.pm:763> INFO - Output to latex.bbl

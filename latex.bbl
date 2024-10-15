@@ -328,18 +328,18 @@
     \endentry
     \entry{vaswani2017}{article}{}
       \name{author}{1}{}{%
-        {{hash=dd8654367c923279fc35fe561acfbf40}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
            family={Vaswani},
            familyi={V\bibinitperiod},
-           given={A},
+           given={Ashish},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{dd8654367c923279fc35fe561acfbf40}
-      \strng{fullhash}{dd8654367c923279fc35fe561acfbf40}
-      \strng{bibnamehash}{dd8654367c923279fc35fe561acfbf40}
-      \strng{authorbibnamehash}{dd8654367c923279fc35fe561acfbf40}
-      \strng{authornamehash}{dd8654367c923279fc35fe561acfbf40}
-      \strng{authorfullhash}{dd8654367c923279fc35fe561acfbf40}
+      \strng{namehash}{7f28e84700536646dd6620a0db07ad09}
+      \strng{fullhash}{7f28e84700536646dd6620a0db07ad09}
+      \strng{bibnamehash}{7f28e84700536646dd6620a0db07ad09}
+      \strng{authorbibnamehash}{7f28e84700536646dd6620a0db07ad09}
+      \strng{authornamehash}{7f28e84700536646dd6620a0db07ad09}
+      \strng{authorfullhash}{7f28e84700536646dd6620a0db07ad09}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -442,6 +442,36 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2304.10557v5
+      \endverb
+    \endentry
+    \entry{geva2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6ddfda347d05ca4293f624d7d476c882}{%
+           family={Geva},
+           familyi={G\bibinitperiod},
+           given={Mor},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ddfda347d05ca4293f624d7d476c882}
+      \strng{fullhash}{6ddfda347d05ca4293f624d7d476c882}
+      \strng{bibnamehash}{6ddfda347d05ca4293f624d7d476c882}
+      \strng{authorbibnamehash}{6ddfda347d05ca4293f624d7d476c882}
+      \strng{authornamehash}{6ddfda347d05ca4293f624d7d476c882}
+      \strng{authorfullhash}{6ddfda347d05ca4293f624d7d476c882}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{09}
+      \field{note}{arXiv Identifier: 2012.14913v2}
+      \field{title}{Transformer Feed-Forward Layers Are Key-Value Memories}
+      \field{version}{2}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2012.14913v2
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2012.14913v2
       \endverb
     \endentry
   \enddatalist

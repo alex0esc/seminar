@@ -1,5 +1,4 @@
 \section{Einleitung}
-
 	\subsection{Forschungsfrage und Zielsetzung}
 	Seit dem 30. November 2023 ist der Chatbot ChatGPT veröffentlicht und frei nutzbar. 
 	Nur nach weniger als zwei Monaten hatte ChatGPT bereits 100 Millionen Nutzer \cite[S. 15]{spitzer23}.
@@ -149,8 +148,8 @@
 			f(\vec{v}) = \vec{w}\textnormal{,\qquad wobei } \vec{v} \in \mathbb{R}^n \textnormal{ und } \vec{w} \in \mathbb{R}^m
 		\end{equation}  
 		\vspace{0.0cm}
-
-		Die Funktion $f$ hat zahlreiche Parameter, die man genau so anpassen will, dass aus unterschiedlichen 
+		
+		Die Funktion $f$ hat zahlreiche Parameter (oft mehrere Milliarden), die man genau so anpassen will, dass aus unterschiedlichen 
 		Eingabevektoren die gewünschten Ausgabevektoren werden und genau hier kommt das Training ins Spiel. Durch
 		Training ist es möglich die Zahlreichen Parameter des Netzwerks so einzustellen, dass sich die Werte der 
 		Ausgabevektoren möglichst gut an die gewünschten Werte annähern \cite[S. 4f]{aggarwal2018}.  
@@ -220,13 +219,15 @@
 	encodiert werden \cite[S. 2f]{vaswani2017}. Das liegt daran das bei vielen Wörtern die Position im Satz eine 
 	Entscheidende Rolle dafür spielt, was der Satz aussagt:
 
+	\vspace{3mm}
 	\emph{Der Mann jagt den Hund.} 	
 	\space $\neq$ \space
 	\emph{Der Hund jagt den Mann.}
 	
 	\clearpage
+	\noindent
 	Die grundlegende Funktionsweise besteht darin, dass der Transformer diese Tokens in Vektoren umwandelt, verarbeitet und dann 
-	als Ausgabe Wahrscheinlichkeiten errechnet, welches Token als nächstes folgen könnte. Natürlich wäre ein Chatbot der nur
+	als Ausgabe errechnet, welches Token mit welcher Wahrscheinlichkeit als nächstes folgt. Natürlich wäre ein Chatbot der nur
 	ein Token als Antwort geben könnte ziemlich nutzlos. Das Problem ist aber einfach zu lösen, indem man dem Transformer
 	die Tokens der vorherigen Eingabe und dazu die neu generierten Tokens gibt. Das wird auch als Selbstregression bezeichnet und 
 	bedeutet, dass der Transformer seine Ausgabe wieder als Eingabe verwendet \cite[S. 2]{vaswani2017}.  
@@ -242,17 +243,17 @@
   		\hline
 	  	\multicolumn{2}{|c|}{Zusammenhang mit Haus: } \\
 	  	\hline
-	  	\emph{Wie} & 0,033 \\
+	  	\emph{Wie} & 0,046 \\
 	  	\hline
-	  	\emph{nennt} & 0,05 \\
+	  	\emph{nennt} & 0,08 \\
 		\hline
-	  	\emph{man} & 0,033 \\
+	  	\emph{man} & 0,023 \\
 	  	\hline
-		\emph{ein} & 0,15 \\
+		\emph{ein} & 0,12 \\
 	  	\hline
 		\emph{großes} & 0,7 \\
 	  	\hline
-		\emph{haus} & 0,033 \\
+		\emph{haus} & 0,031 \\
 		\hline
 		\emph{?} & 0,001 \\
 		\hline
@@ -261,24 +262,39 @@
 	
 	\noindent Weil sich das Adjektiv \emph{großes} auf das Nomen \emph{Haus} bezieht erkennt ein trainierter Transformer hier
 	einen starken Zusammanhang. Durch diese errechneten Zusammenhänge zwischen den Tokens kann das Netzwerk abwägen, welches
-	Token auf welches andere Token wie viel einfluss haben soll.	
-	
+	Token auf welches andere Token wie viel einfluss nehmen soll.	
+		
 	Nach der Multi-Head Attention folgt eine Normalisierung, welche dabei hilft die Vektoren zu verarbeiten. 
 	Normalisirungen sind zwar Teil der Transformerachitektur aber nicht entscheidend für ein schematisches Verständnis
 	und werden hier nicht genauer beschrieben\cite[S.3]{vaswani2017}. 
-
+	\clearpage
+	\noindent
 	Der zweite bedeutende Teil eines Transformers folgt direkt auf den attention Block und nennt sich Feed Forward Block.
-	Im Feed Forward Block befinden sich c.a. zwei drittel der Parameter.	 
+	Im Feed Forward Block befinden sich c.a. zwei drittel der Parameter \cite{geva2024}. Parameter bestimmer bekanntlicher weise
+	die Ausgabewerte einer Funktion oder eines neuronalen Netzwerks. Im Fall eines Chatbots bestimmen diese Paramter, wie auf 
+	einen Satz den der Transformer als eingabe bekommt geantwortet wird. Bei diesen Antworten reicht es meistens aber nicht aus, 
+	einfach nur Zusammenhänge zwischen Wörtern zu erkennen, wie oben erklärt, sondern man bennötigt Hintergrundwissen zum Thema 
+	für eine konstruktive Antwort.
+
+	Im obigen Satz muss man zum Beispiel nicht nur verstehen, das es um ein \emph{großes Haus} geht sondern auch wissen welche alternativen
+	Wörter es dafür gibt um die Frage zu beantworten. Dafür braucht man den Feed Forward Block, er kann als Gedächnis des Transformers gesehen
+	werden. Da sich hier ein großteil der Parameter befindet ist hier auch ein großteil des Wissens bzw. der Datan, die ein neuronales
+	Netzwerk gelernt hat gespeichert \cite{geva2024}.
+	\vspace{5mm}
+	Im Attention Block werden also zusammenhänge zwischen den Tokens erkannt und dann Informationen zwischen den Tokens übertragen
+	und im Feed Forward Block wird dann noch auf die eingehenden Tokens mit bestimmten issen, welches das Netzwerk besitzt reagiert.
+	
+	Wichtig ist, dass dieser Ablauf von Attention und Feed Forward in einem Transformer mehrmals wiederholt wird, damit auch längere komplexe Texte mit
+	komplizierten Zusammenhängen sinnvol verarbeitet werden können.
+	
+	Am Ende des Transformer befinden sich noch eine Lineare und eine Softmax Schicht \cite{aggarwal2018}. Sie sind dazu dar die Ausgabe des Transformers
+	in einen Vektor zu überführen, der allen bekannten Tokens eine Wahrscheinlichkeit zuweist. Darunter wählt man dann meist das Token 
+	mit der höchsten Wahscheinlichkeit aus und fügt es dem Text hinzu. Diesen Prozess wiederholt man dann so lange, bis der Transformer
+	ein EOS-Token\footnote{End-of-Sequence-Token} generiert und damit den Abschluss seiner Antwort signalisiert.
 	
 	
-	
-	
-	%Pro Transformer:
-	%Passt gut zum Thema
-	%Etwas besser zum erklären?
-	%Aber deutlich komplizierter
-	%mehr zeitaufwand
-	%evtl. zu lang
+	%chat gpt 3.5 tech report oder specs finden
+	%aggarwal2018?
 	\subsection{Warum ist das noch nicht AGI?}\label{s2ss3}
 	\subsection{Was folgt daraus?}\label{s2ss4}
 		\subsubsection{Immer noch nur Algorithmen}\label{s2ss4sss1}
