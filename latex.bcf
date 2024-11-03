@@ -2372,16 +2372,35 @@
     <bcf:citekey order="9" intorder="1">blutermann23</bcf:citekey>
     <bcf:citekey order="10" intorder="1">gawdat23</bcf:citekey>
     <bcf:citekey order="11" intorder="1">gawdat23</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">aggarwal2018</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">vaswani2017</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">gemini2024</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">openAI2024</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">vaswani2017</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">vaswani2017</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">turner2024</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">vaswani2017</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">openAI2020</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">nielsen2015</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">nielsen2015</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">vaswani2017</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">gemini2024</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">openAI2024</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">mielke2021</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">openAI2020</bcf:citekey>
     <bcf:citekey order="20" intorder="1">vaswani2017</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">geva2024</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">vaswani2017</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">turner2024</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">vaswani2017</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">vaswani2017</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">geva2024</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">geva2024</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">nielsen2015</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">vaswani2017</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">goertzel23</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">goertzel23</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">goertzel23</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">goertzel23</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">chen24</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">chenGoogle23</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">gramsch23</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">roivainen23</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">roivainen23</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">roivainen23</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">gawdat23</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">blutermann23</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

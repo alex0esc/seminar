@@ -2,21 +2,21 @@
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Forschungsfrage und Zielsetzung}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Methodik und Aufbau}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Chatbots in der Gesellschaft}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Chatbots mit Gefühlen}{3}{subsection.2.1}%
+\contentsline {section}{\numberline {2}Die öffentliche Wahrnehmung von Chatbots}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Chatbots mit Gefühlen?}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Mediale Berichterstattung}{4}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Chatbots und IQ-Tests}{5}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Funktionsweise von Chatbots}{6}{section.3}%
+\contentsline {section}{\numberline {3}Die Funktionsweise von mordernen Chatbots}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Begriffe und Grundlagen}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Transformer und Chatbots}{8}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Warum ist das noch nicht AGI?}{11}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Was folgt daraus?}{11}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Immer noch nur Algorithmen}{11}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Das falsche Bild in den Medien}{11}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3.4.3}IQ-Tests mit wenig Aussagekraft}{11}{subsubsection.3.4.3}%
-\contentsline {section}{\numberline {4}Fazit: KI kann leicht missverstanden werden}{11}{section.4}%
-\contentsline {section}{Literaturverzeichnis}{12}{section.4}%
-\contentsline {section}{Abbildungsverzeichnis}{14}{section*.2}%
-\contentsline {section}{Tabellenverzeichnis}{15}{section*.3}%
-\contentsline {section}{Anhang}{16}{section*.4}%
+\contentsline {section}{\numberline {4}Was folgt daraus?}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Nur Algorithmen ohne Gefühle}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Das falsche Bild in den Medien}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}IQ-Tests mit wenig Aussagekraft}{15}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Fazit: KI kann leicht missverstanden werden}{15}{section.5}%
+\contentsline {section}{Literaturverzeichnis}{16}{section.5}%
+\contentsline {section}{Abbildungsverzeichnis}{18}{section*.2}%
+\contentsline {section}{Tabellenverzeichnis}{19}{section*.3}%
+\contentsline {section}{Anhang}{20}{section*.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

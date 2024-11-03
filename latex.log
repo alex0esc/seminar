@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.24)  15 OCT 2024 23:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.24)  3 NOV 2024 04:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,7 +1228,11 @@ LaTeX Font Info:    Trying to load font information for T1+ppl on input line 78
 (C:\Users\alexe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-(latex.aux)
+(latex.aux
+
+LaTeX Warning: Label `s3ss1' multiply defined.
+
+)
 \openout1 = `latex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
@@ -1511,63 +1515,89 @@ l.29 	\clearpage
                  [1
 
 ]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 41.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 41.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.91925pt on input line 41.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 6.25204pt on input line 41.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 	\clearpage
-                 [2
+l.52 \clearpage
+                [2
 
-]
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 65.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 65.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 65.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 65.
- [3
+] [3
 
 ] [4
 
-] [5]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
-43.
+]
 
-(C:\Users\alexe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
+LaTeX Warning: Reference `s3ss3' on page 5 undefined on input line 121.
+
+[5
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
+33.
+ (C:\Users\alexe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 
-148.
+138.
 
 (C:\Users\alexe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
-Overfull \hbox (9.45284pt too wide) in paragraph at lines 163--166
+[6
+
+]
+Overfull \hbox (9.45284pt too wide) in paragraph at lines 158--161
 []\T1/ppl/b/n/12 Transformer\T1/ppl/m/n/12 : Die Trans-for-me-r-a-chi-tek-tur i
 st ein neu-ro-na-les Netzwerk-Modell,
  []
 
 
-Overfull \hbox (3.35509pt too wide) in paragraph at lines 167--171
+Overfull \hbox (3.35509pt too wide) in paragraph at lines 162--166
 []\T1/ppl/b/n/12 GPT\T1/ppl/m/n/12 : Ein Ge-ne-ra-ti-ve Pre-Trained Trans-for-m
 er ist ein LLM das sich die Trans-
  []
 
-[6
-
-] [7] [8
+[7] [8
 
 ] [9
 
-]) [10
+]
+Overfull \hbox (1.7852pt too wide) in paragraph at lines 280--282
+[]\T1/ppl/m/n/12 Wichtig ist, dass die-ser Ab-lauf von At-ten-ti-on und Feed Fo
+r-ward in ei-nem Trans-
+ []
 
-] [11]
+[10
+
+] [11] [12]
+<assets/hand_rock_paper_scissors.png, id=188, 1545.775pt x 501.875pt>
+File: assets/hand_rock_paper_scissors.png Graphic file (type png)
+<use assets/hand_rock_paper_scissors.png>
+Package pdftex.def Info: assets/hand_rock_paper_scissors.png  used on input lin
+e 355.
+(pdftex.def)             Requested size: 386.44281pt x 125.46843pt.
+ [13
+
+] [14 <./assets/hand_rock_paper_scissors.png>]
+Overfull \hbox (1.72522pt too wide) in paragraph at lines 394--399
+[]\T1/ppl/m/n/12 Das Er-geb-nis, wel-ches ChatGPT-4 im WAIS-III IQ-Test er-zieh
+lt hat wur-de mehr-
+ []
+
+) [15]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 14
 8.
-
-(C:\Users\alexe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
+ (C:\Users\alexe\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Overfull \hbox (0.80621pt too wide) in paragraph at lines 148--148
@@ -1588,12 +1618,12 @@ LaTeX Info: Symbol \textasciiacute not provided by
             font family ppl in TS1 encoding.
             Default family used instead on input line 148.
 
-Overfull \hbox (0.95027pt too wide) in paragraph at lines 148--148
-\T1/pcr/m/n/12 view _ op = view _ citation & hl = de & user = x _ wsduUAAAAJ & 
-citation _
+Overfull \hbox (51.35025pt too wide) in paragraph at lines 148--148
+\T1/pcr/m/n/12 content / uploads / sites / 9 / 2022 / 08 / neuralnetworksanddee
+plearning .
  []
 
-[12
+[16
 
 ]
 Overfull \hbox (13.14424pt too wide) in paragraph at lines 148--148
@@ -1607,25 +1637,44 @@ Overfull \hbox (44.18115pt too wide) in paragraph at lines 148--148
 2 . Techn. Ber. Ver-si-on 6. ar-Xiv Iden-ti-fier: 2303.08774v6.
  []
 
-[13] (latex.lof)
+
+Overfull \hbox (7.1969pt too wide) in paragraph at lines 148--148
+\T1/ppl/m/n/12 mo-dal promp-ting^^P. In: (Dez. 2023). Aus Goo-gle for De-vel-op
+ers. \T1/ppl/m/sc/12 url\T1/ppl/m/n/12 : []$\T1/pcr/m/n/12 https :
+ []
+
+
+Overfull \hbox (10.15027pt too wide) in paragraph at lines 148--148
+\T1/pcr/m/n/12 / / developers . googleblog . com / en / how -[] its -[] made -[
+] interacting -[]
+ []
+
+[17] (latex.lof)
 \tf@lof=\write7
 \openout7 = `latex.lof'.
 
- [14
+ [18
 
 ] (latex.lot)
 \tf@lot=\write8
 \openout8 = `latex.lot'.
 
- [15
+ [19
 
-] [16
+] [20
 
 ] (latex.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `latex.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'latex.run.xml'.
@@ -1633,10 +1682,10 @@ Package logreq Info: Writing requests to 'latex.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40436 strings out of 474462
- 857428 string characters out of 5742883
- 1940998 words of memory out of 5000000
- 62094 multiletter control sequences out of 15000+600000
+ 40458 strings out of 474462
+ 857886 string characters out of 5742883
+ 1941998 words of memory out of 5000000
+ 62106 multiletter control sequences out of 15000+600000
  616757 words of font info for 153 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  108i,20n,107p,10902b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1651,9 +1700,9 @@ s/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/alexe/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/alexe/AppData/Local/P
 rograms/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/alexe/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on latex.pdf (18 pages, 237125 bytes).
+Output written on latex.pdf (22 pages, 2011856 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 

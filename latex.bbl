@@ -295,35 +295,64 @@
       \verb https://www.youtube.com/watch?v=BKf7qrcN0X8
       \endverb
     \endentry
-    \entry{aggarwal2018}{book}{}
+    \entry{openAI2020}{article}{}
       \name{author}{1}{}{%
-        {{hash=86d11a07b1bfeac58dc68f7a419b3039}{%
-           family={Aggarwal},
-           familyi={A\bibinitperiod},
-           given={Charu\bibnamedelima C.},
-           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{86d11a07b1bfeac58dc68f7a419b3039}
-      \strng{fullhash}{86d11a07b1bfeac58dc68f7a419b3039}
-      \strng{bibnamehash}{86d11a07b1bfeac58dc68f7a419b3039}
-      \strng{authorbibnamehash}{86d11a07b1bfeac58dc68f7a419b3039}
-      \strng{authornamehash}{86d11a07b1bfeac58dc68f7a419b3039}
-      \strng{authorfullhash}{86d11a07b1bfeac58dc68f7a419b3039}
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Second Edition}
-      \field{title}{Neural Networks and Deep Learning}
-      \field{year}{2018}
+      \field{month}{06}
+      \field{note}{arXiv Identifier: 2005.14165v4}
+      \field{title}{Language Models are Few-Shot Learners}
+      \field{version}{4}
+      \field{year}{2020}
       \verb{urlraw}
-      \verb https://scholar.google.de/citations?view_op=view_citation&hl=de&user=x_wsduUAAAAJ&citation_for_view=x_wsduUAAAAJ:lN037PIkXpQC
+      \verb https://arxiv.org/abs/2005.14165v4
       \endverb
       \verb{url}
-      \verb https://scholar.google.de/citations?view_op=view_citation&hl=de&user=x_wsduUAAAAJ&citation_for_view=x_wsduUAAAAJ:lN037PIkXpQC
+      \verb https://arxiv.org/abs/2005.14165v4
+      \endverb
+    \endentry
+    \entry{nielsen2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=afe17482fc813e497188aee3b3783879}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Determination press San Francisco, CA, USA}%
+      }
+      \strng{namehash}{afe17482fc813e497188aee3b3783879}
+      \strng{fullhash}{afe17482fc813e497188aee3b3783879}
+      \strng{bibnamehash}{afe17482fc813e497188aee3b3783879}
+      \strng{authorbibnamehash}{afe17482fc813e497188aee3b3783879}
+      \strng{authornamehash}{afe17482fc813e497188aee3b3783879}
+      \strng{authorfullhash}{afe17482fc813e497188aee3b3783879}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Neural networks and deep learning}
+      \field{volume}{25}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://ise.ncsu.edu/wp-content/uploads/sites/9/2022/08/neuralnetworksanddeeplearning.pdf
+      \endverb
+      \verb{url}
+      \verb https://ise.ncsu.edu/wp-content/uploads/sites/9/2022/08/neuralnetworksanddeeplearning.pdf
       \endverb
     \endentry
     \entry{vaswani2017}{article}{}
@@ -397,6 +426,7 @@
       \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
       \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
       \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -414,6 +444,82 @@
       \verb https://arxiv.org/abs/2303.08774v6
       \endverb
     \endentry
+    \entry{mielke2021}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=ee5753b9bfb53a1d99f7625513731c5e}{%
+           family={Mielke},
+           familyi={M\bibinitperiod},
+           given={Sabrina\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c4c0fac8fa7b6dd8a2ca06fbe9d89839}{%
+           family={Alyafeai},
+           familyi={A\bibinitperiod},
+           given={Zaid},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b8b7ff780dc4ceab48a413de2360c4a1}{%
+           family={Salesky},
+           familyi={S\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=81a5a94e2388c149a73a86381db45e07}{%
+           family={Raffel},
+           familyi={R\bibinitperiod},
+           given={Colin},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e4c5e162e471d5b16c1ae030c76eda96}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Manan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=15b69d10a4674c92ae5d9daa14dc9e6a}{%
+           family={Gallé},
+           familyi={G\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=52a679cb9789ccfc637c93a9e46ac966}{%
+           family={Raja},
+           familyi={R\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod}}}%
+        {{hash=50e55ce524a6cabd5d5e862c580e6869}{%
+           family={Si},
+           familyi={S\bibinitperiod},
+           given={Chenglei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=23955a8e5f3f41ecb3f77e3690ac4959}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Wilson\bibnamedelima Y},
+           giveni={W\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=94281af9d8dc6ef21034ae05bf1a820d}{%
+           family={Sagot},
+           familyi={S\bibinitperiod},
+           given={Benoı̂t},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{35d3734c96ad3b324bdf97a974615a4c}
+      \strng{fullhash}{412de80bf7532ddb62977007938ea2cd}
+      \strng{bibnamehash}{35d3734c96ad3b324bdf97a974615a4c}
+      \strng{authorbibnamehash}{35d3734c96ad3b324bdf97a974615a4c}
+      \strng{authornamehash}{35d3734c96ad3b324bdf97a974615a4c}
+      \strng{authorfullhash}{412de80bf7532ddb62977007938ea2cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{arXiv Identifier: 2112.10508}
+      \field{title}{Between words and characters: A brief history of open-vocabulary modeling and tokenization in NLP}
+      \field{version}{1}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2112.10508
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2112.10508
+      \endverb
+    \endentry
     \entry{turner2024}{article}{}
       \name{author}{1}{}{%
         {{hash=50bb1da31125197be3166f9bee1ed0ef}{%
@@ -428,8 +534,8 @@
       \strng{authorbibnamehash}{50bb1da31125197be3166f9bee1ed0ef}
       \strng{authornamehash}{50bb1da31125197be3166f9bee1ed0ef}
       \strng{authorfullhash}{50bb1da31125197be3166f9bee1ed0ef}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{02}
@@ -472,6 +578,64 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2012.14913v2
+      \endverb
+    \endentry
+    \entry{goertzel23}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d00baed2f90b47ae52840783b7ac55e4}{%
+           family={Goertzel},
+           familyi={G\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d00baed2f90b47ae52840783b7ac55e4}
+      \strng{fullhash}{d00baed2f90b47ae52840783b7ac55e4}
+      \strng{bibnamehash}{d00baed2f90b47ae52840783b7ac55e4}
+      \strng{authorbibnamehash}{d00baed2f90b47ae52840783b7ac55e4}
+      \strng{authornamehash}{d00baed2f90b47ae52840783b7ac55e4}
+      \strng{authorfullhash}{d00baed2f90b47ae52840783b7ac55e4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{arXiv Identifier: 2309.10371}
+      \field{title}{Generative AI vs. AGI: The Cognitive Strengths and Weaknesses of Modern LLMs}
+      \field{version}{1}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2309.10371
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2309.10371
+      \endverb
+    \endentry
+    \entry{chenGoogle23}{article}{}
+      \name{author}{1}{}{%
+        {{hash=af8b242a704fa6e5cb7608094ab3b0ff}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{af8b242a704fa6e5cb7608094ab3b0ff}
+      \strng{fullhash}{af8b242a704fa6e5cb7608094ab3b0ff}
+      \strng{bibnamehash}{af8b242a704fa6e5cb7608094ab3b0ff}
+      \strng{authorbibnamehash}{af8b242a704fa6e5cb7608094ab3b0ff}
+      \strng{authornamehash}{af8b242a704fa6e5cb7608094ab3b0ff}
+      \strng{authorfullhash}{af8b242a704fa6e5cb7608094ab3b0ff}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{note}{Aus Google for Developers}
+      \field{title}{How it’s Made: Interacting with Gemini through multimodal prompting}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://developers.googleblog.com/en/how-its-made-interacting-with-gemini-through-multimodal-prompting/
+      \endverb
+      \verb{url}
+      \verb https://developers.googleblog.com/en/how-its-made-interacting-with-gemini-through-multimodal-prompting/
       \endverb
     \endentry
   \enddatalist
