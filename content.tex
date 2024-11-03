@@ -17,14 +17,14 @@
 	Es ist wichtig so eine Technologie richtig einordnen zu können. Jedoch wissen die wenigsten
 	wie Chatbots funktionieren, was dazu führt, dass deren fähigkeiten oft flasch eingeschätzt werden. 
 	Darum soll in dieser Arbeit der Frage nach gegangen werden, welches Bild die Offentlichekeit von 
-	Chatbots hat, bzw. was an diesem Bild problematisch sein könnte. 
+	Chatbots hat, bzw. was an diesem Bild problematisch sein kann. 
 
 	Diese Arbeit verfolgt das Ziel aufzuzeigen, welcher Eindruck von Chatbots in den Medien   
-	vermittelt wird. Daraus sollen Schlüsse gezogen werden, was die meisten Menschen über diese Form 
-	der KI denken. Außerdem soll die Arbeit verständlich erklären, warum der Eindruck von
-	Chatbots bzw. KI oft fehlerhaft ist. Dazu wird näher auf die Funktionsweise dieser Programme 
-	eingegangen. Nach dem Lesen der Arbeit soll man ein grundlegendes Verständnis von Chatbots haben 
-	und mit Informationen diesbezüglich aufgeschlossener umgehen können. 
+	vermittelt wird. Daraus sollen Schlüsse gezogen werden, wie Öffentlichkeit über KI denkt.  
+	Außerdem soll die Arbeit verständlich erklären, warum der Eindruck von Chatbots bzw. KI oft 
+	fehlerhaft ist. Dazu wird näher auf die Funktionsweise dieser Programme eingegangen. Nach 
+	dem Lesen der Arbeit soll man ein grundlegendes Verständnis von Chatbots haben und mit 
+	Informationen diesbezüglich aufgeschlossener umgehen können. 
 
 	\clearpage
 	\subsection{Methodik und Aufbau} 
@@ -52,7 +52,6 @@
 	
 \clearpage
 \section{Die öffentliche Wahrnehmung von Chatbots}\label{s1}
-
 	\subsection{Chatbots mit Gefühlen?}\label{s1ss1}
 	Eine kurze Erklärung vorab: Die meisten kennen vermutlich bekannete Chatbots wie ChatGPT, die dazu
 	entwickelt wurden uns bei diversen Aufgaben zu unterstützen. Im Gegensatz dazu steht Character.AI, 
@@ -108,7 +107,7 @@
 	sehen und richtig zu deuten.
 
 	Eka Roivainen schreibt in ihrem Artikel, wie er mit dem damals neu veröffentlichten ChatGPT-4 einen IQ-Test
-	durchgeführt hat \cite{roivainen23}. Sie schreibt zu beginn des Artikels, dass sie sich dafür interessiere, wie
+	durchgeführt hat \cite{roivainen23}. Sie schildert zu beginn des Artikels, dass sie sich dafür interessiere, wie
 	schlau ChatGPT im Vergleich zu menschlichen Standarts ist. Im verbalen Teil des verwendeten WAIS-III Tests
 	erklärt sie, der Chatbot hat einen Wert von 155 erzielt und ist damit besser als 99,9\% der menschliche Teilnehmer.
 	Der Artikel wurde mehreren anderen Artikeln zitiert, wie beispielweise von Sandra Blütermann in ihrem Artikel
@@ -123,7 +122,7 @@
 	Darüber hinaus wird die Aussage von Mo Gawdat über die Intellegenz von ChatGPT-4, diskutiert und widerlegt. 	
 
 \clearpage	
-\section{Die Funktionsweise von mordernen Chatbots}
+\section{Die Funktionsweise von KI-Dialogsystemen}
 	\subsection{Begriffe und Grundlagen}\label{s2ss1}
 	Um das nächste Kapitel verstehen zu können, müssen zunächst einige wichtige Begriffe und Sachverhalte erklärt 
 	werden. Natürlich kann im Rahmen dieser Arbeit nicht eine komplette Erklärung rund um LLM und GPT bis ins Detail
@@ -135,9 +134,9 @@
 		die eine Anzahl $n$ an Werten annimt und eine Anzahlt $m$ an Werten ausgibt. Diese Werte kann man auch als Eingabe-
 		und Ausgabevektor sehen: 		
 		
-		\begin{equation}\label{nueral_network_function}	
+		\begin{equation*}	
 			f(\vec{v}) = \vec{w}\textnormal{,\qquad wobei } \vec{v} \in \mathbb{R}^n \textnormal{ und } \vec{w} \in \mathbb{R}^m
-		\end{equation}  
+		\end{equation*}  
 		\vspace{0.0cm}
 		
 		Die Funktion $f$ hat zahlreiche Parameter (175 Milliarden bei GPT-3 \cite[S. 8]{openAI2020}), die man genau so 
@@ -174,8 +173,8 @@
 	
 	\subsection{Transformer und Chatbots}\label{s2ss2}
 	Im Folgenden wrid der schematische Aufbau eines Transformers erklärt. Wie schon in \ref{s2ss1} erwähnt wurde 
-	ist ein Transformer ein neuronales Netzwerk-Modell. Das heißt wie in \ref{nueral_network_function} beschrieben 
-	nimmt dieser Transformer einen Vektor an rationalen Zahlen als Eingabe und gibt ebenso einen Vektor aus.      	
+	ist ein Transformer ein neuronales Netzwerk-Modell. Das heißt der Transformer nimmt einen Vektor an rationalen 
+	Zahlen als Eingabe und gibt ebenso einen Vektor aus.      	
 	
 	\tikzstyle{concept} = [rectangle, rounded corners, minimum width=2cm, minimum height=0.8cm, text centered, draw=black, fill=orange!40, line width = 0.5mm]
 	\tikzstyle{arrow} = [thick,->,>=stealth, line width = 0.5mm]
@@ -220,7 +219,7 @@
 	
 	\clearpage
 	\noindent
-	Die grundlegende Funktionsweise besteht darin, dass der Transformer diese Tokens in Vektoren umwandelt, verarbeitet und dann 
+	Die grundlegende Funktionsweise besteht darin, dass der Transformer diese Tokens in Zahlen umwandelt, verarbeitet und dann 
 	als Ausgabe errechnet, welches Token mit welcher Wahrscheinlichkeit als nächstes folgt. Natürlich wäre ein Chatbot der nur
 	ein Token als Antwort geben könnte ziemlich nutzlos. Das Problem ist aber einfach zu lösen, indem man dem Transformer
 	die Tokens der vorherigen Eingabe und dazu die neu generierten Tokens gibt. Das wird auch als Selbstregression bezeichnet und 
@@ -294,8 +293,8 @@
 	ANI, dass ist KI die für spezifische Aufgabe, wie z. B. Bilderkennung entwickelt wurde. In \ref{s1} wurde 
 	herausgearbeitet, dass jedoch oft der Eindruck vermittelt wird, es handele sich bei modernen Chatbots um 
 	eine form von AGI. Im Folgenden wird also herausgearbeitet wieso es sich bei den aktuellen Chatbots um ANI 
-	handelt.  
-	Allgemein muss eine KI bestimte Eigenschaften erfüllen, um als AGI bezeichnet werden zu können \cite[S. 8]{goertzel23}:
+	handelt. Allgemein muss eine KI bestimte Eigenschaften erfüllen, um als AGI bezeichnet werden zu können 
+	\cite[S. 8]{goertzel23}:
 	\begin{itemize}
 	\item Eine AGI muss fähig sein ein breites Spektrum an Aufgabe unter verschiedenen Vorraussetzugen zu erledigen. 
 	\item Eine AGI sollte auch mit Situationen oder Problemen umgehen können für die sie nicht spiziell entwickelt wurde. 
@@ -312,7 +311,7 @@
 	
 	Letzendlich fehlt mordernen Chatbots vor allem die Fähigkeit erlerntes Wissen auf andere Probleme zu übertragen. Goertzel schreib in
 	seiner Arbeit hierzu, dass ein Sprachmodell sein Wissen lediglich als Fallbeispiel abspeichert. Das führt dazu das diese Wissen
-	zwar je nach bedarf abgerufen werden kann, aber nicht auf andere sinvoll Situationen transferiert wird. LLMs fehlt eine 
+	zwar je nach bedarf abgerufen werden kann, aber nicht sinvoll auf andere Situationen transferiert wird. LLMs fehlt eine 
 	abstrakte Repräsentation des gelernten Wissens \cite[S. 81f]{goertzel23}. 
 	
 	\noindent{}Insgesamt ist man sich einig, dass es sich bei LLMs wie ChatGPT oder Gemini nicht um AGI handelt. Auch wenn nach außen
@@ -343,11 +342,11 @@
 	%1. KI ist nicht wirklich intellegent, wurde darauf trainiert so zu tun als hätte sie emotionen!!! JA!
 	%1. KI hat eigentlich keine emotionen JA!
 	%Other. negative einflüssen, wenn man zu sozial abhängig von KI wird
-	\subsection{Das falsche Bild in den Medien}\label{s3ss2}
+	\clearpage
+	\subsection{Falsche darstellung in den Medien}\label{s3ss2}
 	Die gennanten Beispiele aus \ref{s1ss3} sollen im folgenden Teil erneut aufgegriffen und richtig gestellt werden. Darüber
 	hinaus werden die technischen Hintergründe zu den Beispielen genauer beleuchtet. 
 
-	\noindent
 	Zu beginn wurde auf die Gemini Demo eingegangen. Im Video zur Demo wurde vor allem betont, wie Interartiv der Chatbot mit
 	der anwesenden Person zusammenarbeitet und es entsteht der Eindruck, dass der Chatbot in Echtzeit auf die Person reagiert.
 	In Wahrheit hat der Chatbot aber nur Bilder und Text mit zusätzlichen Hinweisen als Eingabe bekommen \cite{chenGoogle23}. Beispielsweise wurde
@@ -372,7 +371,7 @@
 	Wissen. Problematisch ist, dass vorallem Personen, die nur wenig Verständnis von KI besitzen, durch 
 	solche Informationsquellen leicht einen flaschen Eindruck davon bekommen können, zu was Chatbots fähig sind.
 	
-	
+	\clearpage
 	\subsection{IQ-Tests mit wenig Aussagekraft}\label{s3ss1}
 	Kaptiel \ref{s1ss3} hat IQ-Tests im Zusammenhang mit Chatbots behandelt. Dabei wurde erklärt, wie ChatGPT-4 in einem
 	IQ-Test eine Punktezahlt von 155 erziehlte. Im Folgenden soll diskutiert werden, warum dieses Ergebnis nicht mit dem
@@ -381,7 +380,7 @@
 	Zum einen wurde nur ein verbaler IQ-Test durchgeführt. Natürlich hat man bei einem Textbasierten Chatbot 
 	keine andere Möglichkeit Fragen zu stellen. Roivainen schreibt in ihrem Artikel, dass ein verbale IQ und der allgemeine IQ
 	stark zusammenhängen. Sie schreib, dass ChatGPT nach menschlichen Maßstäben sehr intelligent ist \cite{roivainen23}.
-	Der Zusammenhang ziwschen verbalem und allgemeinem IQ wurde jedoch bei Menschen und nicht bei Chatbots beobachtet. Darum
+	Der Zusammenhang ziwschen verbalen und allgemeinen IQ wurde jedoch bei Menschen und nicht bei Chatbots beobachtet. Darum
 	ist diese Folgerung so nicht möglich.
 	
 	Zudem sind die Fragen, die der Chatbot beantwortet hat, nicht geeignet, wenn es darum geht fest zu stellen, wie intellegent eine KI ist.
@@ -391,10 +390,39 @@
 	kommt nicht auf die selbe Weise zu einer Antwort wie ein Mensch, dass wrid in \ref{s2ss2} deutlich. Daraus folgt auch,
 	dass man die Ergebnisse von Menschen und Chatbots in solchen IQ-Test nicht sinvoll vergleichen kann. Somit ist die
 	Folgerung von Roivainen, dass ChatGPT nach menschlichen Maßstäben sehr intelligent ist, nicht zustreffend \cite{roivainen23}. 
+	Außerdem wrude in \ref{s2ss3} wurde gezeigt, dass es sich bei Chatbots nicht um AGI handelt. Ihnen fehlen essentielle
+	Eigenschaften, die eine zentrale Rolle bei der Definition von allgemiener Intelligenz spielen. 	
 	
 	Das Ergebnis, welches ChatGPT-4 im WAIS-III IQ-Test erziehlt hat wurde mehrmals Zitiert. Wie im Artikel selbst wurde die
 	Vergleichbarkeit zwischen Mensch und Chatbot einfach vorausgesetzt \cite{gawdat23} oder nicht kritisch hinterfragt 
 	\cite{blutermann23}. Durch das aufgeführte Beipsiel wird deutlich, wie leicht Ergebnisse, die KI in IQ-Tests erziehlt, missverstanden
 	werden können. Allgemein ist es sehr schwer die intellegenz eines Chatbots mit der eines Menschen zu vergleichen. 
 	%goeartzel ???
-\section{Fazit: KI kann leicht missverstanden werden}\label{s4}
+	
+\clearpage
+\section{Fazit: KI kann missverstanden werden}
+Zusammenfassend lässt sich feststellen, dass es durchaus möglich ist eine falsche Auffassung von KI zu bekommen. Dazu braucht es nicht
+einmal direkt falsche Informationen, sondern vorallem eine mangelnde Intuition, was wirklich hinter den aktuellen Chatbots steckt.
+Es ist wichtig grundlegend zu verstehen wie Chatbots funktionieren, um Neuigkeiten und Informationen über Chatbots richtig einordnen zu können.   
+Das wurde in der Arbeit durch folgende drei Beispiele verdeutlicht.
+
+Chatbots stellen für einige Menschen auch einen sozialen mehrwert dar. Personen, die Chatbots für diese Zwecke verwenden sollten sich bewusst sein,
+dass Chatbots nicht empfindungsfähig sind. Zudem sollte man klar zwischen der sozialen Interaktion mit Chatbots und der mit Menschen unterscheiden.
+
+Die Medien spielen eine zentrale Rolle dabei die Öffentlichkeit über Neuigkeiten zum Thema KI und Chatbots zu informieren. Das heißt jedoch nicht,
+dass Informationen, die in den Medien vermittelt werden Richtig sind. Mit einem grundlegenden Verständnis ist es aber deutlich leichter flasche und
+richtige Informationen zu unterscheiden.     
+
+Auch wenn ein Chatbot nach außen hin sehr intelligent wirkt und man das auch mit einem IQ-Test messen kann, muss man die Ergebnisse von Chatbots
+und Menschen unterscheiden. Chatbots haben zahlreiche Schwächen und Einschränkungen, die sich aber nicht direkt bemerkbar machen. 
+
+Natürlich konnte im Rahmen dieser Arbeit nur ein Teil der Faktoren, die die öffentliche Wahrnehmung von Chatbots beeinflussen, behandelt werden. 
+Es gibt auch zahlreiche gute Quellen um sich über KI zu informieren. Die Arbeit hat aber deutlich gemacht, dass man leicht auf falsche informationen
+stoßen kann.
+
+Letzendlich werden Chatbots und KI immer mehr in unser modernes Leben integirert. Darum wird auch ein verständnis dieser Technologie immer Wichtiger
+um damit verantwortungsvoll umgehen zu können und missverständnisse zu vermeiden. 
+
+
+%welches bild hat die öffentlichkeit also bzw. wie denkt sie über ki?
+%

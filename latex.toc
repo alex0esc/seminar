@@ -6,17 +6,14 @@
 \contentsline {subsection}{\numberline {2.1}Chatbots mit Gefühlen?}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Mediale Berichterstattung}{4}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Chatbots und IQ-Tests}{5}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Die Funktionsweise von mordernen Chatbots}{6}{section.3}%
+\contentsline {section}{\numberline {3}Die Funktionsweise von KI-Dialogsystemen}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Begriffe und Grundlagen}{6}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Transformer und Chatbots}{8}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Warum ist das noch nicht AGI?}{11}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Was folgt daraus?}{13}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Nur Algorithmen ohne Gefühle}{13}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Das falsche Bild in den Medien}{13}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}IQ-Tests mit wenig Aussagekraft}{15}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Fazit: KI kann leicht missverstanden werden}{15}{section.5}%
-\contentsline {section}{Literaturverzeichnis}{16}{section.5}%
-\contentsline {section}{Abbildungsverzeichnis}{18}{section*.2}%
-\contentsline {section}{Tabellenverzeichnis}{19}{section*.3}%
-\contentsline {section}{Anhang}{20}{section*.4}%
+\contentsline {subsection}{\numberline {4.2}Falsche darstellung in den Medien}{14}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}IQ-Tests mit wenig Aussagekraft}{16}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Fazit: KI kann missverstanden werden}{17}{section.5}%
+\contentsline {section}{Literaturverzeichnis}{18}{section.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
