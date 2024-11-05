@@ -240,6 +240,12 @@
       \field{month}{03}
       \field{title}{I Gave ChatGPT an IQ Test. Here's What I Discovered}
       \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.scientificamerican.com/article/i-gave-chatgpt-an-iq-test-heres-what-i-discovered/
+      \endverb
+      \verb{url}
+      \verb https://www.scientificamerican.com/article/i-gave-chatgpt-an-iq-test-heres-what-i-discovered/
+      \endverb
     \endentry
     \entry{blutermann23}{article}{}
       \name{author}{1}{}{%
@@ -263,6 +269,12 @@
       \field{month}{03}
       \field{title}{ChatGPT besteht IQ-Test}
       \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.computerbild.de/artikel/cb-News-Internet-ChatGPT-besteht-IQ-Test-35523461.html
+      \endverb
+      \verb{url}
+      \verb https://www.computerbild.de/artikel/cb-News-Internet-ChatGPT-besteht-IQ-Test-35523461.html
+      \endverb
     \endentry
     \entry{gawdat23}{online}{}
       \name{author}{1}{}{%
